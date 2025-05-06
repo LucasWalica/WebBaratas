@@ -1,0 +1,36 @@
+---
+---
+<section class="mt-10 bg-white text-gray-900 py-12 px-6 rounded-2xl shadow-md max-w-3xl mx-auto">
+    <h2 class="text-3xl font-bold text-green-700 mb-6 text-center">Contáctanos</h2>
+    <form action="https://formsubmit.co/projectwali272@gmail.com" method="POST" class="space-y-6">
+      <!-- Evita SPAM -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="http://localhost:4321/gracias">
+  
+      <!-- Nombre -->
+      <div>
+        <label for="nombre" class="block text-sm font-medium text-gray-700">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required class="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:ring-green-500 focus:border-green-500">
+      </div>
+  
+      <!-- Email -->
+      <div>
+        <label for="email" class="block text-sm font-medium text-gray-700">Correo electrónico</label>
+        <input type="email" id="email" name="email" required class="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:ring-green-500 focus:border-green-500">
+      </div>
+  
+      <!-- Mensaje -->
+      <div>
+        <label for="mensaje" class="block text-sm font-medium text-gray-700">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required class="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:ring-green-500 focus:border-green-500"></textarea>
+      </div>
+  
+      <!-- Botón -->
+      <div id="contacto" class="text-center">
+        <button type="submit" class="bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-800 transition">
+          Enviar mensaje
+        </button>
+      </div>
+    </form>
+  </section>
+  

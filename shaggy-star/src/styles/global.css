@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --verdePrincipal: #0D6E4E;
+  --verdeAcento: #38A169;
+  --negroSuave: #212121;
+  --grisClaro: #F4F4F4;
+  --grisOscuro: #6C757D;
+}
+
+/* Usar las variables CSS */
+.bg-verdePrincipal {
+  background-color: var(--verdePrincipal);
+}
+
+.text-negroSuave {
+  color: var(--negroSuave);
+}
+
+.bg-verdeAcento {
+  background-color: var(--verdeAcento);
+}
+
+.text-grisClaro {
+  color: var(--grisClaro);
+}

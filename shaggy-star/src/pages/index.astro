@@ -1,0 +1,23 @@
+---
+import Header from '../components/Header.astro';
+import Layout from '../layouts/Layout.astro';
+import ActionForm from '../components/ActionForm.astro';
+import Presentacion from '../components/Presentacion.astro';
+import PorQueNosotros from '../components/PorQueNosotros.astro';
+import Servicios from '../components/Servicios.astro';
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+---
+
+<Layout>
+	<Header />
+	<div class="grid grid-cols-1 xl:grid-cols-2 xl:gap-2">
+		<Presentacion />
+		<PorQueNosotros />
+	</div>
+	<Servicios />
+	<ActionForm />
+	<div class="h-10">
+
+	</div>
+</Layout>
