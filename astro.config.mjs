@@ -3,6 +3,7 @@ import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://webbaratasoviedo.es',
+    site: 'https://LucasWalica.github.io/WebBaratas',
+    base: '/WebBaratas/',
     integrations: [tailwind()],
 });
