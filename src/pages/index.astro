@@ -8,6 +8,7 @@ import Servicios from '../components/Servicios.astro';
 import { SEO } from "astro-seo";
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+
 ---
 
 <SEO>
@@ -26,3 +27,17 @@ import { SEO } from "astro-seo";
 
 	</div>
 </Layout>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZK12FPGT5X"></script>
+<script>
+	// @ts-ignore
+  window.dataLayer = window.dataLayer || [];
+  // @ts-ignore
+  function gtag(){dataLayer.push(arguments);}
+  // @ts-ignore
+  gtag('js', new Date());
+// @ts-ignore
+  gtag('config', 'G-ZK12FPGT5X');
+</script>
+
